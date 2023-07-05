@@ -11,4 +11,4 @@ addSbtPlugin("com.github.sbt"            % "sbt-native-packager" % "1.9.9")
 addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat"        % "0.3.1")
 addSbtPlugin("dev.zio"                   % "zio-sbt-website"     % "0.3.4")
 
-resolvers ++= Resolver.sonatypeOssRepos("public")
+resolvers += Resolver.sonatypeRepo("public")
